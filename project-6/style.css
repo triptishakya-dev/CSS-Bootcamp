@@ -1,0 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.container{
+    background-color:#D7E4C0;
+    border: 3px solid black;
+    margin: 100px auto;
+    padding: 50px; 
+    width: 550px;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn:hover{
+    /* color: blue; */
+    cursor: pointer;
+    background-color:red;
+}
+
+
+.tripti{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.btn{
+    background-color: #FFCAD4;
+    padding: 6px 10px;
+    border-radius: 20px; 
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 5px solid pink;
+
+}

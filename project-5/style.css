@@ -1,0 +1,29 @@
+.container{
+    background-color:palevioletred;
+    border: 3px solid black;
+    padding: 28px;
+    margin: 28px auto;
+    width: 666px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color:black;
+    color: red;
+}
+a:visited{
+    color: #bfe70d;
+}
+
+
+.btn{
+    background-color: brown;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 6px;
+}

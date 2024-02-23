@@ -1,0 +1,64 @@
+.chacha{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border:  solid black 3px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    position: absolute ;
+    right: 5px;
+    margin:10px;
+    
+}
+
+.parent{
+    
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.children-1{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: solid black 3px;
+    margin: 20px;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 20px;
+    
+
+    
+    
+}
+.children-2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: solid black 3px;
+    margin: 20px;
+    position: absolute;
+    left: 300px;
+    bottom: 100px;
+    border-radius: 20px;
+    
+}
+
+.chacha-2{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid black 2px;
+position: absolute;
+bottom: 0px;
+left: 50%;
+top: 550px;
+    
+
+}
