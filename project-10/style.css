@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.parents{
+    height: 60vh;
+    /* width: 100%; */
+    background-color:#50727B ;
+    /* padding-left: 50px; */
+    /* padding-right: 20px; */
+    padding: 50px 70px;
+}
+
+
+
+.children-1{
+    /* background-color: aqua; */
+    /* padding: 30px; */
+    /* margin: 20px; */
+    display: flex;
+    list-style: none;
+    margin: 50px;
+    word-spacing: 15px;
+     
+
+    
+    justify-content: space-between;
+    
+}
+
+.child-1{
+    width: 500px;
+    color:black;
+}
+li{
+    margin-bottom: 4px;
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    margin-bottom: 20px;
+}
+.children-2{
+    display: flex;
+    justify-content:space-between;
+    margin: 60px;
+}
+
+/* .child-5{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+} */
+
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.child-5 i{
+    /* border: 2px solid black; */
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #418192;
+
+}
+.child-5 i:first-child:hover{
+    background-color: rgb(46, 33, 223);
+}
+.child-5 i:nth-child(2):hover{
+background-color: pink;
+}
+.child-5 i:nth-child(3):hover{
+background-color: rgba(255, 0, 0, 0.329);
+}
+.child-5 i:last-child:hover{
+    background-color: rgba(54, 54, 184, 0.616);
+}
