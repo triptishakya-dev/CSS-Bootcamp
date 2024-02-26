@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.parents{
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* background-color: aliceblue; */
+    /* margin-left: 500px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.kydu{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.kydu h1{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+}
+
+.kydu p{
+    /* border: 2px solid blue; */
+    margin-top: 14px;
+    font-weight: 400;
+    
+    
+}
+.children-1{
+    
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    padding: 10px;
+    justify-content: center;
+    /* background-image: -moz-linear-gradient(to right,blue,black);? */
+}
+button{
+    padding: 8px 16px;
+}
+
+.children-1 button{
+    background-color: blue;
+
+}
+
+.children-1 button:nth-child(2){
+    background-color: purple;
+}
+.children-1 button:nth-child(3){
+    background-color: skyblue;
+}
+.children-1 button:nth-child(4){
+    background-color: red;
+}
+.children-1 button:nth-child(5){
+    background-image: linear-gradient(to right, blue,pink);
+}
+.children-1 button:last-child{
+    background-image: linear-gradient( red,orange);
+}
+
+
+
+.children-2{
+    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top:30px;
+    padding: 10px;
+    
+}
+
+.children-3{
+    display: flex;
+    gap: 50px;
+    margin-top:40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
