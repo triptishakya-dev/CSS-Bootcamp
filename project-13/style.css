@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 100vh;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/15592747/pexels-photo-15592747/free-photo-of-footpath-among-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+}
+nav{
+    background-color: #FF3EA5;
+    height: 50px;
+    width: 95%;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    border-radius: 20px;
+
+}
+nav ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul li:hover{
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img-parent{
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+    background: transparent;
+    border: 2px solid black;
+    position: absolute;
+    top: 90px;
+}
+
+.con-1 img{
+    height: 400px;
+    margin: 30px 0 0 40px;
+}
+.con-2 img{
+    height: 40px;
+    width: 50px;
+}
+
+
